@@ -6,11 +6,22 @@
 	<meta name="author" content="Nazar Linovetsky">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 	<title>Stopwatch Plugin</title>
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/stopwatch.css">
+	<link rel="stylesheet" href="/stopwatch.css">
 </head>
 <body>
-	Hello world!
-<script src="/stopwatch.js"></script>
+
+	<div class="testtest1"></div>
+	<div class="testtest2"></div>
+	<div class="testtest3"></div>
+	<div class="testtest4"></div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="/jquery.stopwatch.js"></script>
+<script>
+	$('.testtest1').stopwatch();
+	$('.testtest2').stopwatch();
+	$('.testtest3').stopwatch();
+	$('.testtest4').stopwatch();
+</script>
 </body>
 </html>
